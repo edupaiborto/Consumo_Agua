@@ -25,6 +25,9 @@ node_modules/
 dist/
 build/
 
+ttx.1
+pyvenv.cfg
+
 # Ignore arquivos de sistema
 .DS_Store
 Thumbs.db
