@@ -1,0 +1,31 @@
+# created by virtualenv automatically
+
+# Ignore pacotes e dependências locais
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Ignore arquivos de configuração e cache do PyCharm
+.idea/
+
+
+# Ignore logs e arquivos temporários
+*.log
+*.tmp
+
+# Ignore grandes pacotes e dependências do ambiente
+node_modules/
+dist/
+build/
+# Ignorar pastas e arquivos temporários
+Lib/
+Scripts/
+node_modules/
+dist/
+build/
+
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+

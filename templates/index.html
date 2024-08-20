@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Consumo de Água</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Consumo de Água</h1>
+    <form action="{{ url_for('analise') }}" method="POST">
+        <label for="acao">Escolha uma prática de economia de água:</label>
+        <select name="acao" id="acao">
+            <option value="Fechamento de torneiras">Fechamento de torneiras</option>
+            <option value="Conserto de vazamentos">Conserto de vazamentos</option>
+            <option value="Uso de dispositivos economizadores">Uso de dispositivos economizadores</option>
+        </select>
+        <button type="submit">Analisar</button>
+    </form>
+</body>
+</html>
